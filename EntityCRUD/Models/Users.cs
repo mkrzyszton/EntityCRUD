@@ -5,6 +5,7 @@ namespace EntityCRUD.Models
     public class Users
     {
         [Display(Name="ID")]
+        [Key]
         public int id { get; set; }
         [Display(Name = "Imię")]
         public string name { get; set; }
